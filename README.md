@@ -1,94 +1,76 @@
 # FDA Food Enforcement Search
 
-A simple JavaScript project that searches FDA food enforcement reports by city and state.
+Search openFDA food enforcement reports by city and state.
 
-## About
+## Overview
 
-This project allows a user to enter a city and state and retrieve recent food enforcement reports from the FDA API.
+FDA Food Enforcement Search lets a user enter a city and two-character state abbreviation to retrieve recent food enforcement reports from the openFDA API.
 
-The project automatically creates a date range covering the previous ten years and requests up to five recent enforcement records.
-
-The returned information is processed and displayed dynamically on the page.
+The application automatically searches the previous ten years, sorts results by report date, and displays up to five matching reports in the browser.
 
 ## Features
 
-- Enter a city and state
-- Create a ten-year search range automatically
-- Search FDA food enforcement records
+- Search by city and state
+- Automatically create a ten-year search range
+- Retrieve food enforcement reports from openFDA
 - Sort results by report date
-- Return up to five reports
-- Display available report information dynamically
+- Return up to five matching reports
+- Display available report fields dynamically
 - Link to FDA enforcement report definitions
-
-## Topics Practiced
-
-### APIs
-
-- Using `fetch()`
-- Building API query URLs
-- Reading JSON responses
-- Working with search parameters
-
-### Dates
-
-- Creating JavaScript dates
-- Formatting dates for an API
-- Changing years with `setFullYear()`
-- Converting dates into strings
-
-### Objects and Arrays
-
-- Accessing arrays of API results
-- Using `Object.keys()`
-- Using `Object.values()`
-- Working with object properties
-
-### Loops
-
-- Using `for` loops
-- Using `forEach()`
-- Iterating through multiple reports
-
-### Strings
-
-- Replacing spaces
-- Formatting city names for API requests
-- Replacing underscores
-- Converting labels to uppercase
-
-### DOM Manipulation
-
-- Creating sections
-- Creating headings
-- Creating result fields
-- Appending elements
-- Clearing previous search results
 
 ## Technologies
 
-- HTML5
-- CSS3
-- JavaScript
-- openFDA Food Enforcement API
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+</p>
 
-## FDA Disclaimer
+- [openFDA Food Enforcement API](https://open.fda.gov/apis/food/enforcement/)
+- [FDA Enforcement Report Information and Definitions](https://www.fda.gov/safety/enforcement-reports/enforcement-report-information-and-definitions)
 
-FDA DISCLAIMER: "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service."
+## How to Run
 
-Frequency of API updates: Weekly.
+1. Clone the repository:
 
-## Running the Project
+```bash
+git clone https://github.com/nilesleesmith/simply-get-FDA-food-reports.git
+```
 
-1. Clone or download the repository.
-2. Open `index.html`.
-3. Enter a city and two-character state abbreviation.
-4. Select the search button.
-5. Review the returned food enforcement reports.
-6. Use the FDA information link for enforcement report definitions when needed.
-7. Open the browser developer tools and select the Console to view logged data.
+2. Open the project folder.
 
-## Purpose
+3. Open `index.html` in a web browser.
 
-This project was created while practicing JavaScript APIs, dates, objects, loops, string formatting, and dynamic DOM manipulation.
+No additional packages or build steps are required.
 
-The focus is on building API queries from user input and displaying multiple records returned from an external data source.
+## Data Notice
+
+The application displays the openFDA disclaimer included in the project interface. openFDA data should not be relied upon for medical-care decisions, and returned data may be unvalidated.
+
+The project interface also notes that the API is updated weekly.
+
+## Live Site
+
+Coming soon.
+
+## Screenshots
+
+### Desktop
+
+![FDA Food Enforcement Search desktop view](./screenshots/simply-get-FDA-food-reports-desktop.png)
+
+### Tablet
+
+![FDA Food Enforcement Search tablet view](./screenshots/simply-get-FDA-food-reports-tablet.png)
+
+### Mobile
+
+![FDA Food Enforcement Search mobile view](./screenshots/simply-get-FDA-food-reports-mobile.png)
