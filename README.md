@@ -59,18 +59,8 @@ The project interface also notes that the API is updated weekly.
 
 ## Live Site
 
-Coming soon.
+https://nilesleesmith.github.io/simply-get-FDA-food-reports/
 
 ## Screenshots
 
-### Desktop
-
 ![FDA Food Enforcement Search desktop view](./screenshots/simply-get-FDA-food-reports-desktop.png)
-
-### Tablet
-
-![FDA Food Enforcement Search tablet view](./screenshots/simply-get-FDA-food-reports-tablet.png)
-
-### Mobile
-
-![FDA Food Enforcement Search mobile view](./screenshots/simply-get-FDA-food-reports-mobile.png)
